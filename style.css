@@ -200,7 +200,7 @@ ul li a:hover {
         gap: 3rem;
     }
 
-    nav #check:checked~ul {  
+    nav #check:checked~ul {
         left: 0;
     }
 
@@ -208,17 +208,37 @@ ul li a:hover {
         font-size: 1.25rem;
     }
 
+    /* .section__container {
+        min-width: 100vh;
+        max-width: var(--max-width);
+        margin: auto;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    } */
+
     .section__container {
+        min-width: 100vh;
+        max-width: 100px;
+        margin: auto;
         padding: 10rem 1rem 5rem 1rem;
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .content {
+        max-width: 80%;
+    }
+
     .image {
+        max-width: 80%;
         grid-area: 1/1/2/2;
     }
 
     .action__btns {
         margin: auto;
     }
+
+
 }
